@@ -1,0 +1,25 @@
+{
+  "name": "findmeserver",
+  "version": "1.0.0",
+  "description": "FindMe TecNM API",
+  "main": "./bin/index.js",
+  "bin": {
+    "findmeserver": "index.js"
+  },
+  "scripts": {
+    "start": "node ./bin/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "TecNM Campus Tepic",
+  "license": "ISC",
+  "devDependencies": {
+    "morgan": "^1.9.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.1",
+    "http-status": "^1.0.1",
+    "mongoose": "^4.11.13",
+    "wagner-core": "^0.2.0"
+  }
+}
